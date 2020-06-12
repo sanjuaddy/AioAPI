@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="testAIO.AioLogoutGet">
+        <methods>
+          <include name="getLogoutAPI"/>
+        </methods>
+      </class> <!-- testAIO.AioLogoutGet -->
+      <class name="testAIO.AioSaveWorkflowPost">
+        <methods>
+          <include name="postSaveWorkflowAPI"/>
+        </methods>
+      </class> <!-- testAIO.AioSaveWorkflowPost -->
+      <class name="testAIO.AioEnableWorkflowGet">
+        <methods>
+          <include name="getEnableWorkflowAPI"/>
+        </methods>
+      </class> <!-- testAIO.AioEnableWorkflowGet -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
